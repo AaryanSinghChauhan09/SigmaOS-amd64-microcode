@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-amd64-microcode"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS amd64-microcode component"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_amd64-microcode"
+path = "src/lib.rs"
